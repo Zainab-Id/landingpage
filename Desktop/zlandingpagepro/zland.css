@@ -1,0 +1,87 @@
+*{
+				box-sizing: border-box;
+				margin: 0px;
+				padding: 0px;
+			}
+			@font-face{
+				font-family: myfont;
+				src: url("Baijamjuree-light.ttf"),url("Baijamjuree-regular.ttf"), url("Baijamjuree-semibold.ttf");
+			}
+			body{
+				position: relative;
+				font-family: myfont;
+			}
+			h1{
+				font-weight: 700;
+				padding-bottom: 10px;
+			}
+			p{
+				font-weight: 300;
+				padding-bottom: 10px;
+			}
+			header{
+				background-image: url('bg-header-desktop.png');
+				text-align: center;
+				width: 100%;
+				height: 200px;
+			}
+			main{
+				text-align: center;
+				width: 100%;
+			}
+			section{
+				width: 42%;
+				margin-left: 29%;
+			}
+			.first div{
+				width: 35%;
+				height: 40px;
+				border-radius: 20px;
+				text-align: center;
+				color: white;
+				float: left;
+				clear: right;
+				padding: 15px;
+				margin: 10px;
+			}
+			.new{
+				width: 40%;
+				height: 30%;
+				float: left;
+				margin-left: 5%;
+				text-align: left;
+				padding-top: 20px;
+				padding-bottom: 10px;
+				clear: right;
+			}
+			span{
+				font-size: 12px;
+				line-height: 16px;
+			}
+			.next{
+				float: left;
+				width: 270px;
+				height: 200px;
+				padding: 10px;
+				box-sizing: border-box;
+				clear: right;
+			}
+			.other{
+				float: left;
+				width: 180px;
+				height: 150px;
+				padding: 10px;
+				box-sizing: border-box;
+				clear: right;
+			}
+			footer{
+				width: 100%;
+				height: 80px;
+				background-color: lightgrey;
+			}
+			.last{
+				padding-top: 20px;
+				
+				margin-left: 14%;
+				float: left;
+			}
